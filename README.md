@@ -24,6 +24,7 @@ Krypton Level 2 → Level 3
 ● Skills: Knowledge of Caesar Cipher encryption and decryption methods
 
 Krypton Level 3 → Level 4 
+
 ● Description: Participants move beyond simple substitution ciphers and face a more challenging encryption mechanism. The password for level 4 is encrypted, and players must analyze intercepted messages to identify patterns and extract the password. 
 
 ● Challenge: Analyze intercepted messages to identify the password for level 4. 
@@ -31,6 +32,7 @@ Krypton Level 3 → Level 4
 ● Skills: Cryptanalysis, pattern recognition, and understanding of common encryption weaknesses. 
 
 Krypton Level 4 → Level 5 
+
 ● Description: Level 5 introduces players to polyalphabetic substitution ciphers, specifically the Vigenère Cipher. The password for level 5 is encrypted using this cipher, with the key length provided. 
 
 ● Challenge: Decrypt the ciphertext using the Vigenère Cipher with the given key length to reveal the password for level 5 
@@ -46,6 +48,10 @@ Krypton Level 6 → Level 7
 ● Skills: Frequency analysis, knowledge of American English language patterns, and cryptanalysis. 
 
 Krypton Level 7 
+
 ● Description: The final level challenges players with a more sophisticated encryption technique involving stream ciphers. Players must utilize tools like cryptool to analyze and decrypt the ciphertext, which is encrypted using a weak random number generator. 
+
 ● Challenge: Decrypt the ciphertext encrypted with a stream cipher to access the password for level 7. 
+
 ● Skills: Understanding of stream ciphers, cryptanalysis, and familiarity with cryptographic analysis tools. 
+
