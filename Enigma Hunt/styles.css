@@ -1,0 +1,282 @@
+/* MAIN LOGO */
+
+.Main-logo img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#sidebar ul {
+    display: block !important;
+}
+
+#home {
+    padding-right: 20px;
+}
+
+/* MAIN BUTTON */
+
+.button {
+    display: inline-block;
+    background-color: #C7BB3F;
+    color: #100F0D;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e7d613;
+}
+
+/* TOP LEFT-SIDE LOGO */
+
+.logo img {
+    height: 100px;
+    width: 150px;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #100F0D;
+    padding: 10px 200px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    color:  #C7BB3F;
+    text-decoration: none;
+    padding: 10px 50px;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: #e7d613;
+    color: #100F0D;
+}
+
+body {
+    background-color: #FFF;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Pontano Sans','Maven Pro','Helvetica','Arial',sans-serif;
+    font-size: 12pt;
+    color: #100F0D;
+}
+
+/* Dark mode */
+@media screen and (prefers-color-scheme: dark) {
+	body {
+		background-color: #100F0D;
+		color: #fff;
+	}
+}
+
+@font-face {
+    font-family: 'origins';
+    src: url('origins.ttf');
+}
+
+
+#otwhof {
+    position: absolute;
+    /*right: 30px;
+    top: 160px;*/
+    right: 0px;
+    bottom: 0px;
+    z-index: 10;
+}
+
+/* SSH INFORMATION BOX */
+
+#sidebar ul li sh {
+    font-family: 'origins','Helvetica','Arial',sans-serif;
+    color: #ffffff;
+    font-size: 20pt;
+    line-height: 30px;
+}
+
+#sshinfo {
+    color: white;
+    background-color: black;
+    font-size: 9pt;
+    margin-left: 5px;
+    padding: 4px;
+    border: 1px solid #00ff00;
+    width: 240px;
+}
+
+#sshinfo sh {
+    color: #00ff00;
+    font-size: 12pt;
+}
+
+/* SIDE BAR */
+
+#sidebar {
+    margin: 0px;
+    left: 10px;
+    float: left;
+    width: 270px;
+    padding-right: 15px;
+    height: 100vh;
+}
+
+#sidebar ul {
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#sidebar ul li a {
+    background-attachment: #100F0D;;
+    color: #ffffff;
+    line-height: 24px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+}
+
+#sidebar ul li a:hover {
+    background-color: #e7d613;
+    color: #100F0D;
+}
+
+#sidebar ul li a:visited {
+    color: #ffffff;
+}
+
+#sidebar ul li a.selected {
+    color: #100F0D;
+}
+
+#sidebar ul li a:visited:hover {
+    color: #100F0D;
+}
+
+
+/* BACKGROUND IMAGE */
+
+body {
+    background-image: url('backgroundimage.png')
+    
+    }
+/* TEXT CONTAINER */
+
+#content {
+    /* top right bottom left */
+    margin: 110px 36px 20px 236px;
+}
+
+#content h1 {
+    font-size: 22pt;
+    font-weight: normal;
+}
+
+#content h1 star {
+    font-size: 10pt;
+    color: #333;
+    vertical-align: top;
+}
+
+#content h1 star not {
+    color: #EEE;
+    vertical-align: top;
+}
+
+#content h2 {
+    font-size: 18pt;
+    font-weight: normal;
+    color: #999;
+}
+
+#content ul li {
+    line-height: 24px;
+    text-decoration: none;
+    display: block;
+}
+
+#content a {
+    color: #999;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: #CCC;
+}
+
+pre {
+	width: calc(100vw - 280px);
+}
+
+pre.standalone {
+    font-family: 'Inconsolata','Monaco','Andale Mono','Courier New',monospace;
+    background-color: #EEE;
+    line-height: 100%;
+    padding: 20px 10px 10px 10px;
+}
+
+code {
+  overflow-x: auto;
+}
+
+dl dt {
+    font-size: 13.5pt;
+    font-weight: normal;
+    color: #333;
+    margin-top: 16px;
+}
+
+
+#ircframe {
+	width: calc(100vw - 280px);
+	height: calc(100vh - 100px);
+}
+
+
+
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #100F0D;
+}

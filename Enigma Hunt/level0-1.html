@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Enigma Hunt</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Pontano+Sans|Maven+Pro&subset=latin,latin-ext" rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+      <nav>
+          <a href="#" class="logo">
+              <img src="logo.png" alt="logo" class="logo">
+          </a>
+          <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+          </ul>
+          <ul>
+              <li><a href="help.html">Help?</a></li>
+          </ul>
+      </nav>
+  </header>
+  <script src="scripts.js"></script>
+  <div id="sidebar">
+    <div id="sidebar">
+      <div id="sshinfo">
+        <sh>SSH Information</sh><br>Host: enigmahunt.org<br>Port: 2222
+      </div>
+      <ul>
+        <li>
+          <a href="#"><sh>levels</sh></a>
+        </li>
+        <li><a class="selected" href="./index.html"></a></li>
+        <li><a href="./level0-1.html">Level 0 → Level 1</a></li>
+        <li><a href="./level1-2.html">Level 1 → Level 2</a></li>
+        <li><a href="./level2-3.html">Level 2 → Level 3</a></li>
+        <li><a href="./level3-4.html">Level 3 → Level 4</a></li>
+        <li><a href="./level4-5.html">Level 4 → Level 5</a></li>
+        <li><a href="./level5-6.html">Level 5 → Level 6</a></li>
+        <li><a href="./level6-7.html">Level 6 → Level 7</a></li>
+      </ul>
+    </div>
+  </div>  
+  
+    <div id="content">
+      <div id="title"><h1>Level 0 → Level 1</h1></div>
+      <h2 id="level-info">Level Info</h2>
+      <p>Welcome to Krypton! The first level is easy. The following string encodes the password using Base64:</p>
+      <div class="language-plaintext highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code>S1JZUFRPTklTR1JFQVQ=</code>
+          </pre>
+        </div>
+      </div>
+      <p>Use this password to log in to krypton.labs.overthewire.org with
+        username krypton1 using SSH on port 2231. You can find the files for other levels in
+      /krypton/</p>
+    </div>
+  </body>
+</html>
